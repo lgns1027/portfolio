@@ -55,13 +55,13 @@
       "id": 0,
       "name": "광명시 ktx 역 소개 웹사이트",
       "period": ["2021. 09", "2022. 12"],
-      "description": "템플릿을 활용하여 기본 툴을 만들었으며, 이미지, 폰트 등을 처음으로 사용하여 최초로 웹사이트라 불릴만한 작품을 만들었다\n [광명역 소개](https://jhj041027.wixsite.com/my-site-1)"
+      "description": "템플릿을 활용하여 기본 툴을 만들었으며, 이미지, 폰트 등을 처음으로 사용하여 최초로 웹사이트라 불릴만한 작품을 만들었다\n <a href=\"https://lgns1027.github.io/KTX-GWANGMYEONG/\">광명역 소개</a>"
     },
     {
       "id": 1,
       "name": "광명시 쇼핑몰 소개 웹사이트",
       "period": ["2023. 01", "2023. 03"],
-      "description": "광명시의 여러 쇼핑몰에 대해 소개하는 웹사이트다. 다른 웹사이트로 이동하는 방식 등을 처음으로 구현하였다.\n [광명 쇼핑몰 소개](https://lgns1027.github.io/KTX-GWANGMYEONG/)"
+      "description": "광명시의 여러 쇼핑몰에 대해 소개하는 웹사이트다. 다른 웹사이트로 이동하는 방식 등을 처음으로 구현하였다.\n <a href=\"https://jhj041027.wixsite.com/my-site-1\">광명 쇼핑몰 소개</a>"
     }
   ],
 
