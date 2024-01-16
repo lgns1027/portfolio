@@ -32,8 +32,8 @@
       "id": 0,
       "name": "아이돌 이상형 월드컵 프로젝트",
       "description": "앱인벤터를 통해 만들었으며, 개인이 만들었을 때 보다 확실히 완성도 높은 작업을 할 수 있었다. 분업의 중요성을 느낄 수 있었다.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "webUrl": "https://ai2.appinventor.mit.edu/?locale=ko_KR#4555423019302912",
+      "repoUrl": "https://github.com/lgns1027/",
       "isTeam": true,
       "period": ["2022. 07", "2022. 09"],
       "stack": ["powerpoint", "AppInventor", "BlockCoding", "styled-components", "Recoil"]
