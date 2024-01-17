@@ -20,8 +20,8 @@ const ActivityItem = ({
         {webUrl && (
           <p>
             웹사이트 링크:{" "}
-            <a href={webUrl} target="_blank" rel="noopener noreferrer">
-              {webUrl}
+            <a href={webUrl} target="_blank">
+              {webUrl}(클릭)
             </a>
           </p>
         )}
