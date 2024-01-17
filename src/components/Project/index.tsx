@@ -26,6 +26,9 @@ const Project = ({ project }: Pick<DataProps, "project">) => {
             .map((project) => (
               <ProjectItem key={project.id} {...project} />
             ))}
+      <p>
+        웹사이트 링크: <a href="https://lgns1027.github.io/KTX-GWANGMYEONG/" target="_blank" rel="noopener noreferrer">광명역 소개</a>
+      </p>
         </div>
       </div>
     </>
