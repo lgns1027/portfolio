@@ -20,8 +20,7 @@ const WorkExperienceItem = ({ name, position, period, markdown, imgIndex }: Exte
         {imgSrc && (
           <Image
             src={imgSrc}
-            width="200"
-            height="200"
+            style={{ width: "100%", height: "auto" }}
             alt={name}
             className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT border-solid w-24 h-24"
           />
