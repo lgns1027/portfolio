@@ -1,10 +1,19 @@
+// WorkExperienceItem.tsx
+
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import { WorkExperienceProps } from "@/types";
 
-const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkExperienceProps) => {
+// WorkExperienceProps에 imgIndex 속성을 추가
+interface ExtendedWorkExperienceProps extends WorkExperienceProps {
+  imgIndex: number;
+}
+
+const WorkExperienceItem = ({ name, position, period, markdown, imgIndex }: ExtendedWorkExperienceProps) => {
+  const imgSrc = `/images/workExperience/${imgIndex}.jpg`;
+
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
       <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
