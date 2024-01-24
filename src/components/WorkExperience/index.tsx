@@ -1,3 +1,5 @@
+// WorkExperience/index.tsx
+
 import SectionTitle from "../SectionTitle";
 import WorkExperienceItem from "./WorkExperienceItem";
 
@@ -8,8 +10,8 @@ const WorkExperience = ({ workExperience }: Pick<DataProps, "workExperience">) =
     <div>
       <SectionTitle>Work Experience</SectionTitle>
       <div className="flex flex-col gap-24">
-        {[...workExperience].reverse().map((experience) => (
-          <WorkExperienceItem key={experience.id} {...experience} />
+        {[...workExperience].reverse().map((experience, index) => (
+          <WorkExperienceItem key={experience.id} {...experience} imgIndex={index} />
         ))}
       </div>
     </div>
